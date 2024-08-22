@@ -15,8 +15,7 @@ const AchievementPage = () =>{
             name:"NLP & ML Research Lab",
             position:"Member",
             date:"September 2021 - Present"
-        }
-    ]
+        }]
 
     return(
         <div className='page-container'>

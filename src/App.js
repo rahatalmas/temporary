@@ -11,6 +11,7 @@ import TeachingPage from './pages/TeachingPage';
 import AchievementPage from './pages/AchievementPage';
 import ExperiencePage from './pages/ExperiencePage';
 import SideNav from './components/SideNav';
+import VolunterPage from './pages/VolunterPage';
 
 const Nav = () =>{
     return (
@@ -25,6 +26,7 @@ const Nav = () =>{
                     <Link className='nav-link' to="/research">Research</Link>
                     <Link className='nav-link' to="/teaching">Teaching</Link>
                     <Link className='nav-link' to="/achievements">Achievements</Link>
+                    <Link className='nav-link' to="/volunter">volunter</Link>
              </div>
           </nav>
           <div className='sized-box'></div>
@@ -74,8 +76,8 @@ const App = createBrowserRouter([
 
         },
         {
-          path:"/cv",
-          element:<h1>Cv</h1>
+          path:"/volunter",
+          element:<VolunterPage/>
 
         },
         {

@@ -48,7 +48,7 @@ const Home = () => {
 
     return(
        <div className='home-container'>
-        <PopUpDetails popState={pop} off={popUp} data={dataArr} />
+          <PopUpDetails popState={pop} off={popUp} data={dataArr} />
           <IndexHeader title1="About" title2="Me"/>
           <p className='h-p'>
             <span className='h-s'>Aspiring Scientist Aspiring Scientist | AI & Data Enthusiast | Computer Science GraduateAspiring Scientist </span>

@@ -6,7 +6,7 @@ import ThesisCard from '../components/ThesisCard';
 import './ResearchPage.css';
 
 const ResearchPage = () =>{
-  
+
     const dataCollection = [
       {
          title: "Climate Change and Maternal Health Research Project",
